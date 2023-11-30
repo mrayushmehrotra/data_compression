@@ -7,6 +7,14 @@ git clone https://github.com/mrayushmehrotra/data_compression
 
 cargo build
 
-cargo run  <compress or decompress>   <file_name> <compressed_name>
+cargo run compression_type  source target
+
+```
+
+for example:
+
+```bash
+
+cargo run compress file.jpg file
 
 ```
